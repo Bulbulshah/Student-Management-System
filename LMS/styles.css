@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container, .dashboard, .course-details {
+    padding: 20px;
+}
+
+.auth-container form {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for Dashboard and Course Details */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-list, .modules {
+    list-style: none;
+    padding: 0;
+}
+
+.course-list div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+/* Dark and Light Mode */
+body.light {
+    --bg-color: white;
+    --text-color: black;
+}
+
+body.dark {
+    --bg-color: #121212;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Quiz Page */
+.quiz-container {
+    padding: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-left: 10px;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+}

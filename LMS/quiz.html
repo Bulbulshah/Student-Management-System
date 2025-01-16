@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Quiz: JavaScript Basics</h1>
+            <p id="timer">Time Remaining: 10:00</p>
+        </header>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What does 'DOM' stand for?</p>
+                <label><input type="radio" name="q1" value="a"> Data Object Model</label>
+                <label><input type="radio" name="q1" value="b"> Document Object Model</label>
+                <label><input type="radio" name="q1" value="c"> Digital Object Model</label>
+            </div>
+            <div class="question">
+                <p>2. Which keyword is used to declare variables in JavaScript?</p>
+                <label><input type="radio" name="q2" value="a"> var</label>
+                <label><input type="radio" name="q2" value="b"> let</label>
+                <label><input type="radio" name="q2" value="c"> const</label>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="results" style="display: none;">
+            <h2>Quiz Results</h2>
+            <p id="score"></p>
+            <p id="feedback"></p>
+        </div>
+    </div>
+</body>
+</html>
