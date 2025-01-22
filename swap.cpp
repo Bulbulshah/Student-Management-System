@@ -13,5 +13,6 @@ void udf(int x , int y){
 int main() {
 	int x = 10 , y = 12;
 	udf(x ,y);
+	cout<<y<<endl;
 	return 0;
 }
