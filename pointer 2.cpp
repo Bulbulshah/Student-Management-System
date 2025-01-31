@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int x = 10;
-	ptr = &x; // ptr stores the address of x
+    int* ptr = &x; // ptr stores the address of x
 
     cout << "Value of X is: " << x << endl;                 // Prints the value of x
     cout << "Address of x: " << &x << endl;                // Prints the address of x

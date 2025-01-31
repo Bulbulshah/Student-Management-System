@@ -22,5 +22,5 @@ int main() {
 	cout<<*ptr ;
 	*ptr = 20;	
 	return 0;
-}
+}     
 
